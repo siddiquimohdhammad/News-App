@@ -1,5 +1,4 @@
 import React from 'react'
-// import bg from '../img/android.jpg'
 const BlocgCard = (props) => {
   const getNews=()=>{
     // document.write(props.rm)
@@ -12,7 +11,7 @@ const BlocgCard = (props) => {
     >
 {/* <a href={"/detail/" +props.blogid}> */}
       <div className="card mt-5 mx-2">
-        <img src={props.img} className="card-img-top" alt="Image missing from api" />
+        <img src={props.img} className="card-img-top" alt="missing from api" />
         <div className="card-body row">
           <div className="col-12" >
             <h3 className="card-title ">

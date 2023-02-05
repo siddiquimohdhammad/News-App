@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-// import icon from '../img/icon.jpg'
-
 function Navbar() {
     return (
         <div>
