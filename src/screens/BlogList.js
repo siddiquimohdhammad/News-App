@@ -37,8 +37,8 @@ function BlogList() {
   //   },
   // ]
 // const BASE_URL="https://jsonplaceholder.typicode.com/users"
-// const BASE_URL="https://newsapi.org/v2/top-headlines?country=in&apiKey=6cb0afdcad6a4b5cbbaf64437e0c0e24"
-const BASE_URL="https://newsapi.org/v2/everything?domains=techcrunch.com,thenextweb.com&apiKey=6cb0afdcad6a4b5cbbaf64437e0c0e24"
+const BASE_URL="https://newsapi.org/v2/top-headlines?country=in&apiKey=6cb0afdcad6a4b5cbbaf64437e0c0e24"
+// const BASE_URL="https://newsapi.org/v2/everything?domains=techcrunch.com,thenextweb.com&apiKey=6cb0afdcad6a4b5cbbaf64437e0c0e24"
   React.useEffect(()=>{
     // console.log("Inside useeffect")
     axios.get(BASE_URL).then(
